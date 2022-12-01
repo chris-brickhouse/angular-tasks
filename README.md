@@ -13,3 +13,5 @@ create global usings.cs
 dotnet add package MoreLinq
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+npm install ngrx/effects
+npm install ngrx/store
