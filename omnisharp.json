@@ -1,0 +1,32 @@
+{
+  "FormattingOptions": {
+    "NewLinesForBracesInLambdaExpressionBody": false,
+    "NewLinesForBracesInAnonymousMethods": false,
+    "NewLinesForBracesInAnonymousTypes": false,
+    "NewLinesForBracesInControlBlocks": false,
+    "NewLinesForBracesInTypes": false,
+    "NewLinesForBracesInMethods": false,
+    "NewLinesForBracesInProperties": false,
+    "NewLinesForBracesInObjectCollectionArrayInitializers": false,
+    "NewLinesForBracesInAccessors": false,
+    "NewLineForElse": false,
+    "NewLineForCatch": false,
+    "NewLineForFinally": false
+  },
+  "roslynExtensionsOptions": {
+    "inlayHintsOptions": {
+      "enableForParameters": false,
+      "forLiteralParameters": false,
+      "forIndexerParameters": false,
+      "forObjectCreationParameters": false,
+      "forOtherParameters": false,
+      "suppressForParametersThatDifferOnlyBySuffix": false,
+      "suppressForParametersThatMatchMethodIntent": false,
+      "suppressForParametersThatMatchArgumentName": false,
+      "enableForTypes": false,
+      "forImplicitVariableTypes": false,
+      "forLambdaParameterTypes": false,
+      "forImplicitObjectCreation": false
+    }
+  }
+}
