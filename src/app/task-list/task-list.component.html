@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Tasks</h1>
+  <div *ngIf="tasks && tasks.length > 0">
+    <ul class="list-group">
+      <li *ngFor="let task of tasks">
+        <strong>{{task.name}}</strong>
+        <em class="text-muted">{{task.desc}}</em>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="tasks && tasks.length === 0 || !tasks">
+    <mat-progress-spinner></mat-progress-spinner>
+  </div>
+</div>
