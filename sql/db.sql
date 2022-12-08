@@ -166,3 +166,24 @@ BEGIN
 END
 GO
 
+/* insert dummy data */
+INSERT INTO [dbo].[Todo]
+  ([Name],[Desc],[IsComplete],[TimeStamp],[DeleteFlag])
+values
+  ('Test Task 1', 'Short Desc', 0, getdate(), 0)
+INSERT INTO [dbo].[Todo]
+  ([Name],[Desc],[IsComplete],[TimeStamp],[DeleteFlag])
+values
+  ('Test Task 2', 'Short Desc', 0, getdate(), 0)
+INSERT INTO [dbo].[Todo]
+  ([Name],[Desc],[IsComplete],[TimeStamp],[DeleteFlag])
+values
+  ('Test Task 3', 'Short Desc', 0, getdate(), 0)
+INSERT INTO [dbo].[Todo]
+  ([Name],[Desc],[IsComplete],[TimeStamp],[DeleteFlag])
+values
+  ('Test Task 4', 'Short Desc', 0, getdate(), 0)
+INSERT INTO [dbo].[Todo]
+  ([Name],[Desc],[IsComplete],[TimeStamp],[DeleteFlag])
+values
+  ('Test Task 5', 'Short Desc', 0, getdate(), 0)

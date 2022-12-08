@@ -15,3 +15,8 @@ dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 npm install ngrx/effects
 npm install ngrx/store
+ng g c task-list
+add tasklist to app-router
+
+if install issues: npm install -g npm@latest
+if serve error, check targer in tsconfig es2020
